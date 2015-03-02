@@ -1,8 +1,10 @@
-[![YAF logo](http://yetanotherforum.net/forum/images/YafLogo.png)](http://www.yetanotherforum.net)
+[![YAF logo](http://yetanotherforum.net/forum/images/YafLogo.png)](http://www.yetanotherforum.net)[![Sitecore logo](http://upload.wikimedia.org/wikipedia/en/thumb/3/30/Sitecore_Logo_2014.png/220px-Sitecore_Logo_2014.png)](http://www.sitecore.net)
 
 **YetAnotherForum.NET** (YAF.NET) ASP.NET Open Source Forum solution! The **YAF.NET** project is an international collaboration of like-minded, skilled, and creative individuals who are striving to make **YAF.NET** the most robust and malleable forum solutions available.
 
 ![projectbadge](http://www.ohloh.net/p/yaf/widgets/project_partner_badge.gif)
+
+This project is a modified version of YAF, designed to integrate with Sitecore. 
 
 If you have any questions or would like to get in touch with the project, please see the contact information at the bottom of this document.
 
