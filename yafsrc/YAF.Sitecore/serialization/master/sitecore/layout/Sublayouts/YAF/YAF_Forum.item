@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {A1E631FB-D332-4512-8F4A-C11D4FD1D6C5}
+database: master
+path: /sitecore/layout/Sublayouts/YAF/YAF_Forum
+parent: {12FA102A-536E-4665-BA05-F01738B94453}
+name: YAF_Forum
+master: {00000000-0000-0000-0000-000000000000}
+template: {0A98E368-CDB9-4E1E-927C-8E0C24A003FB}
+templatekey: Sublayout
+
+----field----
+field: {E28F0784-53EC-4B5C-803E-638FDB1EC15D}
+name: Parameters Template
+key: parameters template
+content-length: 0
+
+
+----field----
+field: {E42081B6-8A95-4A11-89CE-DF70ED502F57}
+name: Path
+key: path
+content-length: 40
+
+/sitecore modules/Web/YAF/YAF_Forum.ascx
+----version----
+language: en
+version: 1
+revision: 2f7b72e3-fdd9-47e2-a3a2-fe6bd7d0434b
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20090609T133512
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2f7b72e3-fdd9-47e2-a3a2-fe6bd7d0434b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150302T093058:635608854587427898Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
