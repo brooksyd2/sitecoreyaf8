@@ -123,6 +123,10 @@
     <Reference Include="nStuff.UpdateControls">
       <HintPath>..\packages\nStuff.UpdateControls.1.2.0.0\lib\net35\nStuff.UpdateControls.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Kernel, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Sitecore.Kernel.dll</HintPath>
+    </Reference>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
@@ -4110,6 +4114,7 @@
     <Content Include="Scripts\tinymce\langs\readme.md" />
     <Content Include="Scripts\jquery.fileupload.comb.js.bundle" />
     <Content Include="Scripts\jquery-2.1.3.min.map" />
+    <Content Include="Sitecore.Web.config" />
     <None Include="themes\cleanSlate\theme.less" />
     <Content Include="themes\cleanSlate\theme.css">
       <DependentUpon>theme.less</DependentUpon>
