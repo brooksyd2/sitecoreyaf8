@@ -1,0 +1,99 @@
+<project site="yaftest" format="Zip Package" targetfilefolder="wwwroot">
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore YAF Controls</PackageName>
+      <Author>Brian Pedersen</Author>
+      <Version>1.1</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme>This is an optional package that enables you to control which board, group or forum to display on a Sitecore page from within Sitecore.
+
+The package contains:
+
+- A Dropdown field type called "YAFDropList" that displays all groups/categories/forums from YAF.
+- A template called "YAF/Forum" containing the field type.
+- A sublayout called "YAF/YAF_Forum" containing a YAF control that displays the group, category or forum that was selected using the YAFDropList on the YAF/Forum template.
+
+How to use this:
+
+- Add the YAF/YAF_Forum sublayout to the page that should display a YAF forum
+- Let the same page inherit from the YAF/Forum template
+
+Now you can use the dropdown to select which board, category or forum to display on the selected page.
+
+The package also contains:
+
+- A layout called "YAF/Admin" in the core library.
+- A new Start menu item that allows you to administrate YAF from inside Sitecore.
+
+</Readme>
+      <Publisher>Sitecore</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/system/Field types/List Types/YAFDroplist/{A455B247-09C6-4C7E-9BC7-03889E688770}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Sublayouts/YAF/YAF_Forum/{A1E631FB-D332-4512-8F4A-C11D4FD1D6C5}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Sublayouts/YAF/{12FA102A-536E-4665-BA05-F01738B94453}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/YAF/{3E6B825D-9421-4566-9CEA-4265709FCB05}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/YAF/Forum/{5E6D4F32-C420-4B31-B3D1-282C39F9A67B}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/YAF.Sitecore.dll</x-item>
+        <x-item>/bin/YAF.Sitecore.pdb</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
