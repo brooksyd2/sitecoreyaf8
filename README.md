@@ -1,3 +1,5 @@
+__WARNING: This repo is no longer actively maintained__
+
 [![YAF logo](http://yetanotherforum.net/forum/images/YafLogo.png)](http://www.yetanotherforum.net)[![Sitecore logo](http://upload.wikimedia.org/wikipedia/en/thumb/3/30/Sitecore_Logo_2014.png/220px-Sitecore_Logo_2014.png)](http://www.sitecore.net)
 
 **YetAnotherForum.NET** (YAF.NET) ASP.NET Open Source Forum solution! The **YAF.NET** project is an international collaboration of like-minded, skilled, and creative individuals who are striving to make **YAF.NET** the most robust and malleable forum solutions available.
